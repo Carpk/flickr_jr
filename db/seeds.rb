@@ -9,7 +9,7 @@ end
 15.times do
   Photo.create(title: Faker::Company.bs,
               description: Faker::Lorem.paragraph,
-              img_file_name: '/public/image/cat.jpg')
+              img_file_name: '/image/cat.jpg')
 end
 
 10.times do |t|
