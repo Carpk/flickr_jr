@@ -1,8 +1,12 @@
 .container {
   margin: 20px auto;
-  width: 600px;
+  width: 445px;
   padding: 0px 20px 20px 20px;
   border: 1px dotted black;
+}
+
+ul li {
+  list-style-type: none;
 }
 
 th {
@@ -10,11 +14,21 @@ th {
 }
 
 .header {
+  height: 100px;
   background: black;
   color: white;
 }
 
+.header h1 {
+  float: left;
+  width: 600px;
+  margin: 0;
+  padding: 30px;
+}
+
 .login {
+  padding-top: 25px;
+  width: 200px;
   float: right;
   font-size: 12px;
 }
